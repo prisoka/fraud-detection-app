@@ -8,7 +8,6 @@ class EventsList extends Component {
 
     return (
       <div className="container">
-        <h1></h1>
         <div className="list-group">
           <div className="list-group-item">
             <div className="row">
