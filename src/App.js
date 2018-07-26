@@ -21,6 +21,12 @@ class App extends Component {
     const eventsJSON = await fetch('http://ec2-54-91-86-14.compute-1.amazonaws.com:3333/events')
     let events = await eventsJSON.json()
     console.log('events jSON from server >>>', events)
+    let filteredLow = events.filter(event => (event.fraud_probability >= 0 && event.fraud_probability <= .33))
+    console.log('LOW risk >>> ', filteredLow.length);
+    let filteredMedium = events.filter(event => (event.fraud_probability >= 0.34 && event.fraud_probability <= .66))
+    console.log('MEDIUM risk >>> ', filteredMedium.length);
+    let filteredHigh = events.filter(event => (event.fraud_probability >= 0.67 && event.fraud_probability <= 1))
+    console.log('HIGH risk >>> ', filteredHigh.length);
 
     // then set the state
     this.setState({events})

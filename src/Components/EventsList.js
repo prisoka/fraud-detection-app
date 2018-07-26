@@ -3,7 +3,7 @@ import SingleEvent from './SingleEvent';
 
 class EventsList extends Component {
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     const { events, onclick } = this.props;
 
     return (

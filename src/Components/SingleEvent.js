@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class SingleEvent extends Component {
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     const { event, onclick } = this.props;
 
     return (

@@ -6,11 +6,9 @@ class EventsListChart extends Component {
   render(){
     const data = [
       ["Event", "risk level"],
-      ["High", 11],
-      ["Medium-high", 17],
-      ["Medium", 10],
-      ["Medium-low", 7],
-      ["Low", 5],
+      ["High", 13],
+      ["Medium", 33],
+      ["Low", 49],
     ];
     const options = {
       title: "Risk Prediction",
