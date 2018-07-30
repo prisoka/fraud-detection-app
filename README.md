@@ -11,9 +11,9 @@ This was built by prisoka in one day days as part of a collaborative case study,
 
 **Screenshots**
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/prisoka/fraud-detection-app/blob/master/public/fraud_screen_01.png)<br>
+![alt text](https://github.com/prisoka/fraud-detection-app/blob/master/public/fraud_screen_02.png)<br>
+![alt text](https://github.com/prisoka/fraud-detection-app/blob/master/public/fraud_screen_03.png)<br>
 
 ## Technical Skills:
 1. JavaScript, React.
