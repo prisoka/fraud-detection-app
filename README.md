@@ -5,9 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deployed URL: 
 
 ## What are you looking at? 
-Front-end dashboard built for (hypothetical) employees at an event company to review potential fraudulent events (in real time) based on a data model that surfaces the likelihood of an event being fraudulent.
+Fraud-detection is a Front-end app built for (hypothetical) employees to review potential fraudulent events based on a data model that surfaces the probabiity of an event being fraudulent. 
 
-This was built by prisoka in one day days as part of a collaborative case study, in partnership with 4 members from Galvanize's Data Science Immersive. The Data Science team analyzed training data to build the model as well as the API and the front-end pulls in the latest events in real-time.
+Built in one day as part of a collaborative case study in partnership with 4 members from Galvanize's Data Science Immersive who were responsible for analyzing the data, to build the model and the backend. 
+
+I built the front-end that consumes the latest events in real-time.
 
 **Screenshots**
 
